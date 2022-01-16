@@ -365,12 +365,15 @@
 
         <div class="qualification__container container">
           <div class="qualification__tabs">
-            <div class="qualification__button button--flex">
+            <div
+              class="qualification__button button--flex qualification__active"
+              data-target="#education"
+            >
               <i class="uil uil-graduation-cap qualification__icon"></i>
               Education
             </div>
 
-            <div class="qualification__button button--flex">
+            <div class="qualification__button button--flex" data-target="#work">
               <i class="uil uil-briefcase-alt qualification__icon"></i>
               Work
             </div>
@@ -378,7 +381,11 @@
 
           <div class="qualification__sections">
             <!--==================== QUALIFICATION CONTENT 1 ====================-->
-            <div class="qualification__content">
+            <div
+              class="qualification__content qualification__active"
+              data-content
+              id="education"
+            >
               <!--==================== QUALIFICATION 1 ====================-->
               <div class="qualification__data">
                 <div>
@@ -425,6 +432,58 @@
                   <div class="qualification__calendar">
                     <i class="uil uil-calendar-alt"></i>
                     2009 - 2014
+                  </div>
+                </div>
+
+                <div>
+                  <span class="qualification__rounder"></span>
+                  <!-- <span class="qualification__line"></span> -->
+                </div>
+              </div>
+            </div>
+
+            <!--==================== QUALIFICATION CONTENT 2 ====================-->
+            <div class="qualification__content" data-content id="work">
+              <!--==================== QUALIFICATION 1 ====================-->
+              <div class="qualification__data">
+                <div>
+                  <h3 class="qualification__title">Web Developer</h3>
+                  <span class="qualification__subtitle">Google</span>
+                  <div class="qualification__calendar">
+                    <i class="uil uil-calendar-alt"></i>
+                    Working
+                  </div>
+                </div>
+
+                <div>
+                  <span class="qualification__rounder"></span>
+                  <span class="qualification__line"></span>
+                </div>
+              </div>
+              <!--==================== QUALIFICATION 2 ====================-->
+              <div class="qualification__data">
+                <div></div>
+                <div>
+                  <span class="qualification__rounder"></span>
+                  <span class="qualification__line"></span>
+                </div>
+                <div>
+                  <h3 class="qualification__title">UI/UX Designer</h3>
+                  <span class="qualification__subtitle">Apple</span>
+                  <div class="qualification__calendar">
+                    <i class="uil uil-calendar-alt"></i>
+                    2025 - 2027
+                  </div>
+                </div>
+              </div>
+              <!--==================== QUALIFICATION 3 ====================-->
+              <div class="qualification__data">
+                <div>
+                  <h3 class="qualification__title">Web Designer</h3>
+                  <span class="qualification__subtitle">Microsoft</span>
+                  <div class="qualification__calendar">
+                    <i class="uil uil-calendar-alt"></i>
+                    2028 - 2030
                   </div>
                 </div>
 
